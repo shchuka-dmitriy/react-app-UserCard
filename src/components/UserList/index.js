@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UserCard             from '../UserCard';
 import { loadJson }         from '../../utils';
+import REST_API_BASE_URL from '../../constants';
 
 class UserList extends Component {
   constructor (props) {
